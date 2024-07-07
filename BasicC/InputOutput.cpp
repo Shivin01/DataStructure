@@ -3,6 +3,11 @@
 
 using namespace std;
 
+int maxx(int arr[], int n) {
+    arr[0] += 100;
+    return n;
+}
+
 int main() {
 
     // INPUT and OUT
@@ -148,7 +153,26 @@ int main() {
         k++;
     }
     cout << k << endl;
+    int a = 2;
 
+    do {
+        cout << "Shivin is the best!" << endl;
+        // a--;
+        a = a - 1;
+        cout << "Inside do loop"  << a << endl;
+    } while (a > 1);
+    
+    // Functions
+
+    int arr3[5];
+
+    for (int i =0; i > 5; i++) {
+        arr3[i] = i;
+    }
+
+    int n = maxx(arr3, 15);
+
+    cout << "Value of Array " << arr3[0] << " " << "Value of return: " << n << endl;
 
     return 0;
 
