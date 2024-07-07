@@ -115,7 +115,27 @@ int main() {
 
     int arr[5];
     arr[3] = 15;
-    cout << arr[3];
+    cout << arr[3] << endl;
+
+    // 2d Array
+
+    int arr2[5][5];
+    arr2[1][3] = 79;
+    cout << arr2[1][3] << endl;
+
+
+    // Strings
+
+    string s = "Shivin";
+    int len = s.size() - 1;
+    cout << s[0] << s[1] << endl;
+    cout << s[len] << endl;
+    s[0] = 'Z';
+    cout << s;
+
+    // For loops
+
+
 
     return 0;
 
