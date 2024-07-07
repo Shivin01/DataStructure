@@ -132,9 +132,22 @@ int main() {
     cout << s[len] << endl;
     s[0] = 'Z';
     cout << s;
-
+    
     // For loops
 
+    for ( int i = 0; i<=10; i++) {
+        cout << "Shivin" << endl;
+    }
+
+    // While loop
+    int j = 25;
+    int k = 0;
+    while (j>0) {
+        cout << "Shivin is learning C++ " << j << endl;
+        j--;
+        k++;
+    }
+    cout << k << endl;
 
 
     return 0;
