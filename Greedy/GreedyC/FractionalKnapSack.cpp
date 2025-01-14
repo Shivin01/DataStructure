@@ -1,4 +1,6 @@
-#include <bits/stdc++.h> 
+#include<iostream>
+#include <vector>
+using namespace std;
 
 bool cmp(pair<int, int> &a, pair<int, int> &b) {
     double r1 = (double)a.second / (double)a.first;
